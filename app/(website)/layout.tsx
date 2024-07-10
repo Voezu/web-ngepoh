@@ -11,12 +11,10 @@ async function sharedMetaData(params) {
     metadataBase: new URL(settings.url),
     title: {
       default:
-        settings?.title ||
         "Padukuhan Ngepoh - Girisubo",
       template: "%s | Stablo"
     },
     description:
-      settings?.description ||
       "Ngepoh//Desc",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Fadhel" }],
