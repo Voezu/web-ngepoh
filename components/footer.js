@@ -11,14 +11,14 @@ export default function Footer(props) {
         Copyright © {new Date().getFullYear()} {props?.copyright}. All
         rights reserved.
       </div>
-      <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
+      {/* <div className="mt-1 flex justify-center gap-1 text-center text-sm text-gray-500 dark:text-gray-600">
         <span>
           {" "}
           Made by{" "}
-          {/*  // ** 🙏  Can I ask you a favor? 🙏 **
+           // ** 🙏  Can I ask you a favor? 🙏 **
             // Please do not remove the below link.
            // It helps us to grow & continue our work. Thank you.
-          // OR Purchase PRO version for commercial license.  */}
+          // OR Purchase PRO version for commercial license. 
           <a
             href="https://web3templates.com/?ref=stablo-template"
             rel="noopener"
@@ -36,10 +36,10 @@ export default function Footer(props) {
             Github
           </a>
         </span>
-      </div>
+      </div> */}
       <div className="mt-2 flex items-center justify-between">
         <div className="mt-5">
-          <a
+          {/* <a
             href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
             target="_blank"
             rel="noopener"
@@ -51,11 +51,11 @@ export default function Footer(props) {
               width="150"
               height="25"
             />
-          </a>
+          </a> */}
         </div>
         <ThemeSwitch />
       </div>
-      <Backlink />
+      {/* <Backlink /> */}
     </Container>
   );
 }

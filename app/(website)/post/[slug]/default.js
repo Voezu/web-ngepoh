@@ -41,7 +41,7 @@ export default function Post(props) {
           <div className="mt-3 flex justify-center space-x-3 text-gray-500 ">
             <div className="flex items-center gap-3">
               <div className="relative h-10 w-10 flex-shrink-0">
-                {AuthorimageProps && (
+                {/* {AuthorimageProps && (
                   <Link href={`/author/${post.author.slug.current}`}>
                     <Image
                       src={AuthorimageProps.src}
@@ -51,13 +51,13 @@ export default function Post(props) {
                       sizes="40px"
                     />
                   </Link>
-                )}
+                )} */}
               </div>
               <div>
                 <p className="text-gray-800 dark:text-gray-400">
-                  <Link href={`/author/${post.author.slug.current}`}>
+                  <div>
                     {post.author.name}
-                  </Link>
+                  </div>
                 </p>
                 <div className="flex items-center space-x-2 text-sm">
                   <time
@@ -101,7 +101,7 @@ export default function Post(props) {
               ← View all posts
             </Link>
           </div>
-          {post.author && <AuthorCard author={post.author} />}
+          {/* {post.author && <AuthorCard author={post.author} />} */}
         </article>
       </Container>
     </>
