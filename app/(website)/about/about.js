@@ -10,7 +10,7 @@ export default function About({ authors, settings }) {
         About
       </h1>
       <div className="text-center">
-        <p className="text-lg">We are a small passionate team.</p>
+        <p className="text-lg">Selamat Datang di Portal Digital Padukuhan Ngepoh</p>
       </div>
 
       {/* <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
@@ -38,9 +38,8 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+          Padukuhan Ngepoh merupakan salah satu Padukuhan yang terletak
+          di Kapanewon Girisubo. 
         </p>
         <p>
           Our API infrastructure is leveraged by clients ranging from
