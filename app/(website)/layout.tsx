@@ -15,7 +15,7 @@ async function sharedMetaData(params) {
       template: "%s | Stablo"
     },
     description:
-      "Ngepoh//Desc",
+      "Portak Digital Padukuhan Ngepoh",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Fadhel" }],
     canonical: settings?.url,
@@ -31,7 +31,7 @@ async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: settings?.title || "Stablo Template",
+      title: settings?.title || "Ngepoh Blog",
       card: "summary_large_image"
     },
     robots: {
