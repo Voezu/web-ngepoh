@@ -13,22 +13,22 @@ import { myLoader } from "@/utils/all";
 export default function Navbar(props) {
   const leftmenu = [
     {
-      label: "Home",
+      label: "Beranda",
       href: "/"
     },
     {
-      label: "About",
+      label: "Tentang",
       href: "/about"
     },
     {
-      label: "Contact",
+      label: "Kontak",
       href: "/contact"
     }
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
+      label: "Semua Postingan",
       href: "/archive"
     },
     // {
@@ -100,7 +100,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        Padukuhan Ngepoh
                       </span>
                     )}
                   </Link>
