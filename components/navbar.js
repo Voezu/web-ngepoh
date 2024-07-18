@@ -89,12 +89,12 @@ export default function Navbar(props) {
                         Stablo
                       </span>
                     )}
-                  </Link>
+                  </Link> */}
                   <Link href="/" className="hidden w-28 dark:block">
                     {props.logoalt ? (
                       <Image
                         {...urlForImage(props.logoalt)}
-                        alt="Logo"
+                        alt="Padukuhan Ngepoh"
                         priority={true}
                         sizes="(max-width: 640px) 100vw, 200px"
                       />
@@ -103,7 +103,7 @@ export default function Navbar(props) {
                         Padukuhan Ngepoh
                       </span>
                     )}
-                  </Link> */}
+                  </Link>
                   <Disclosure.Button
                     aria-label="Toggle Menu"
                     className="ml-auto rounded-md px-2 py-1 text-gray-500 focus:text-blue-500 focus:outline-none dark:text-gray-300 md:hidden ">
