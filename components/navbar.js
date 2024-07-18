@@ -76,11 +76,11 @@ export default function Navbar(props) {
                   ))}
                 </div>
                 <div className="flex w-full items-center justify-between md:w-auto">
-                  {/* <Link href="/" className="w-28 dark:hidden">
+                  <Link href="/" className="w-28 dark:hidden">
                     {props.logo ? (
                       <Image
                         {...urlForImage(props.logo)}
-                        alt="Logo"
+                        alt="Padukuhan Ngepoh"
                         priority={true}
                         sizes="(max-width: 640px) 100vw, 200px"
                       />
@@ -89,7 +89,7 @@ export default function Navbar(props) {
                         Stablo
                       </span>
                     )}
-                  </Link> */}
+                  </Link>
                   <Link href="/" className="hidden w-28 dark:block">
                     {props.logoalt ? (
                       <Image
