@@ -7,7 +7,7 @@ export default function About({ authors, settings }) {
   return (
     <Container>
       <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        About
+        Tentang
       </h1>
       <div className="text-center">
         <p className="text-lg">Selamat Datang di Portal Digital Padukuhan Ngepoh</p>
@@ -42,10 +42,9 @@ export default function About({ authors, settings }) {
           di Kapanewon Girisubo. 
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+          Padukuhan Ngepoh terletak di Desa Nglindur, Kapanewon Girisubo, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta.
+          Terdiri dari empat buah Rukun Tetangga (RT) yang terbagi menjadi RT 13, RT 14, RT 15, dan RT 16. Tercatat sebanyak 65
+          kepala keluarga yang terdaftar. Tercatat sebanyak 13 kepala keluarga di RT 13, 16 kepala keluarga di RT 14, 15 kepala keluarga di RT 15, dan 21 kepala keluarga di RT 16.
         </p>
         <p>
           <Link href="/contact">Get in touch</Link>
