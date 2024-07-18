@@ -79,7 +79,7 @@ export default function Navbar(props) {
                   <Link href="/" className="w-28 dark:hidden">
                     {props.logo ? (
                       <Image
-                        //{...urlForImage(props.logo)}
+                        {...urlForImage(props.logo)}
                         alt="Padukuhan Ngepoh"
                         priority={true}
                         sizes="(max-width: 640px) 100vw, 200px"
@@ -93,7 +93,7 @@ export default function Navbar(props) {
                   <Link href="/" className="hidden w-28 dark:block">
                     {props.logoalt ? (
                       <Image
-                        //{...urlForImage(props.logoalt)}
+                        {...urlForImage(props.logoalt)}
                         alt="Padukuhan Ngepoh"
                         priority={true}
                         sizes="(max-width: 640px) 100vw, 200px"
