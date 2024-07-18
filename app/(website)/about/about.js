@@ -47,7 +47,7 @@ export default function About({ authors, settings }) {
           kepala keluarga yang terdaftar. Tercatat sebanyak 13 kepala keluarga di RT 13, 16 kepala keluarga di RT 14, 15 kepala keluarga di RT 15, dan 21 kepala keluarga di RT 16.
         </p>
         <p>
-          <Link href="/contact">Get in touch</Link>
+          <Link href="/contact">Hubungi Kami</Link>
         </p>
       </div>
     </Container>
