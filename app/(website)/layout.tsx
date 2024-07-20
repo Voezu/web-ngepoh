@@ -15,7 +15,7 @@ async function sharedMetaData(params) {
       template: "%s | Stablo"
     },
     description:
-      "Portak Digital Padukuhan Ngepoh",
+      "Portal Digital Padukuhan Ngepoh",
     keywords: ["Next.js", "Sanity", "Tailwind CSS"],
     authors: [{ name: "Fadhel" }],
     canonical: settings?.url,

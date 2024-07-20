@@ -17,10 +17,6 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "Tentang",
-      href: "/about"
-    },
-    {
       label: "Kontak",
       href: "/contact"
     }
@@ -29,8 +25,12 @@ export default function Navbar(props) {
   const rightmenu = [
     {
       label: "Semua Postingan",
-      href: "/archive"
+      href: "/news"
     },
+    {
+      label: "Tentang",
+      href: "/about"
+    }
     // {
     //   label: "Pro Version",
     //   href: "https://stablo-pro.web3templates.com/",
