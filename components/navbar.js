@@ -17,15 +17,15 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "Kontak",
-      href: "/contact"
+      label: "Semua Postingan",
+      href: "/news"
     }
   ];
 
   const rightmenu = [
     {
-      label: "Semua Postingan",
-      href: "/news"
+      label: "Kontak",
+      href: "/contact"
     },
     {
       label: "Tentang",
