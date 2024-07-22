@@ -23,7 +23,7 @@ export default function Post({ posts }) {
       </div>
       <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
         <p>
-          Padukuhan Ngepoh terletak di Desa Nglindur, Kapanewon Girisubo, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta. Masyarakat yang tinggal di padukuhan Ngepoh ini
+          Berdiri pada tahun 1915, Padukuhan Ngepoh terletak di Desa Nglindur, Kapanewon Girisubo, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta. Masyarakat yang tinggal di padukuhan Ngepoh ini
           mayoritasnya adalah lansia dan orang tua. Tercatat sebanyak 65 kepala keluarga yang tinggal di padukuhan ini. Warga yang menetap di Padukuhan ini
           mayoritasnya berprofesi sebagai petani dan peternak. Di setiap malam Selasa, Padukuhan Ngepoh mengadakan kegiatan Karawitan. Selain kegeiatan kesenian Karawitan,
           warga Padukuhan Ngepoh juga suka melaksanakan olahraga bola voli yang hampir setiap malamnya dilaksanakan di lapangan bola voli yang berada di padukuhan ini.

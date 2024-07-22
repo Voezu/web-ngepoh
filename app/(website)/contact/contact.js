@@ -4,6 +4,7 @@ import {
   EnvelopeIcon,
   PhoneIcon
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 
 export default function Contact({ settings }) {
   return (
@@ -22,6 +23,19 @@ export default function Contact({ settings }) {
               padukuhanngepoh@gmail.com
             </a>
           </div>
+
+          <div className="text-dark-600 mt-2 flex items-center justify-center space-x-1 text-center dark:text-gray-400">
+            <Image
+              src={"/img/instagram.png"}
+              alt="Logo Instagram"
+              width={30}
+              height={30}
+            />
+            <a
+              href={`https://www.instagram.com/kim.mantap?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==`}>
+              @kim.mantap
+            </a>
+          </div>  
           <div className="text-dark-600 mt-2 flex items-center justify-center space-x-2 text-center dark:text-gray-400">
             <PhoneIcon className="h-4 w-4" />
             <a href={`tel:+62 82325646273`}>Dukuh Ngepoh</a>

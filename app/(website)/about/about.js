@@ -38,13 +38,15 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          Padukuhan Ngepoh merupakan salah satu Padukuhan yang terletak
-          di Kapanewon Girisubo. 
+          Website ini adalah buatan mahasiswa KKN Universtas Atma Jaya Yogyakarta
         </p>
         <p>
-          Padukuhan Ngepoh terletak di Desa Nglindur, Kapanewon Girisubo, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta.
-          Terdiri dari empat buah Rukun Tetangga (RT) yang terbagi menjadi RT 13, RT 14, RT 15, dan RT 16. Tercatat sebanyak 65
-          kepala keluarga yang terdaftar. Tercatat sebanyak 13 kepala keluarga di RT 13, 16 kepala keluarga di RT 14, 15 kepala keluarga di RT 15, dan 21 kepala keluarga di RT 16.
+          Website ini dibuat untuk memudahkan masyarakat Ngepoh dalam mengakses informasi terkini seputar Padukuhan,
+          mempererat komunikasi antarwarga, serta menyediakan platform untuk berbagai kegiatan sosial yang dilaksanakan di Padukuhan Ngepoh.
+        </p>
+        <p>
+          Selain itu, website ini juga bertujuan untuk memperkenalkan potensi dan keunikan Padukuhan Ngepoh 
+          kepada masyarakat luas, serta mendukung upaya pelestarian budaya dan tradisi lokal.
         </p>
         <p>
           <Link href="/contact">Hubungi Kami</Link>

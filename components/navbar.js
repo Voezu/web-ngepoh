@@ -19,10 +19,18 @@ export default function Navbar(props) {
     {
       label: "Semua Postingan",
       href: "/news"
-    }
+    },
+    {
+      label: "UMKM",
+      href: "/umkm"
+    },
   ];
 
   const rightmenu = [
+    {
+      label: "Kesenian",
+      href: "/kesenian"
+    },
     {
       label: "Kontak",
       href: "/contact"
