@@ -59,6 +59,76 @@ export default function umkm() {
             Pangsit Linting KUBE Ngepoh
           </p>
         </div>
+
+        <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
+          <Image
+            src={"/img/aminsayurngepohnglindur.jpg"}
+            alt="Bakul Sayur Amin"
+            width={480}
+            height={270}
+            className="mx-auto mb-5 mt-4 object-cover"
+          />
+
+          <p className="mt-2">
+            Bakul Sayur Amin Ngepoh, Nglindur
+          </p>
+        </div>
+
+        <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
+          <Image
+            src={"/img/anekasnackBuAmi.png"}
+            alt="Keripik Pare"
+            width={480}
+            height={270}
+            className="mx-auto mb-5 mt-4 object-cover"
+          />
+
+          <p className="mt-2">
+            Aneka Snack Bu Ami
+          </p>
+        </div>
+
+        <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
+          <Image
+            src={"/img/keripikbasrenghikmahsnack.jpg"}
+            alt="Keripik Pare"
+            width={480}
+            height={270}
+            className="mx-auto mb-5 mt-4 object-cover"
+          />
+
+          <p className="mt-2">
+            Keripik Basreng Hikmah Snack
+          </p>
+        </div>
+
+        <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
+          <Image
+            src={"/img/SegoPecelBuAmi.png"}
+            alt="Keripik Pare"
+            width={480}
+            height={270}
+            className="mx-auto mb-5 mt-4 object-cover"
+          />
+
+          <p className="mt-2">
+            Sego Pecel Bu Ami
+          </p>
+        </div>
+
+        <div className="mx-auto mt-5 text-center text-lg dark:prose-invert dark:text-white">
+          <Image
+            src={"/img/sayuransegardeviminartingepoh.jpg"}
+            alt="Bakul Sayur Devi Aminarti"
+            width={480}
+            height={270}
+            className="mx-auto mb-5 mt-4 object-cover"
+          />
+
+          <p className="mt-2">
+            Sayuran Segar Devi Aminarti Ngepoh
+          </p>
+        </div>
         
       </div>
 
