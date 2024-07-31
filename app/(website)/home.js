@@ -10,7 +10,7 @@ export default function Post({ posts }) {
       </h1>
       <div className="text-center">
         <p className="text-lg">
-          Kalurahan Nglindur Kapanewon Girisubo, Kabupaten
+          Kalurahan Nglindur, Kapanewon Girisubo, Kabupaten
           Gunungkidul, Daerah Istimewa Yogyakarta
         </p>
         <Image
